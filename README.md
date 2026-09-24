@@ -6,10 +6,9 @@ NexStore provides a complete product-management experience with authentication, 
 
 ---
 
-## 🚀 Live Demo & Repository
+## 🚀 Live Demo
 
-* **GitHub Repository:** [Your GitHub Repository Link]
-* **Live Demo:** [Your Vercel/Netlify Deployment Link]
+* **Live Demo:** [NexStore Live Demo](https://nexgensis-technologies.vercel.app/)
 
 ---
 
@@ -705,7 +704,6 @@ npm run preview
 The application can be deployed using platforms such as:
 
 * Vercel
-* Netlify
 
 After deployment, update the **Live Demo** link at the top of this README.
 
@@ -718,30 +716,6 @@ Use the following DummyJSON credentials for testing:
 ```text
 Username: emilys
 Password: emilyspass
-```
-
----
-
-# 📸 Screenshots
-
-Add screenshots of the following pages to showcase the project:
-
-* Login page
-* Product dashboard
-* Search and filtering
-* Product details
-* Add/Edit product modal
-* Delete confirmation
-* Mobile responsive view
-
-Example:
-
-```markdown
-![Login Page](screenshots/login.png)
-
-![Product Dashboard](screenshots/dashboard.png)
-
-![Product Details](screenshots/product-details.png)
 ```
 
 ---
