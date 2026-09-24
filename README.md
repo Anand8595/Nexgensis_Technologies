@@ -56,21 +56,6 @@ src/
 └── App.jsx
 ```
 
-## 💻 Installation
-
-```bash
-git clone <your-repo-url>
-cd nexstore
-npm install
-npm run dev
-```
-
-Open:
-
-```text
-http://localhost:5173
-```
-
 ## 🏭 Production Build
 
 ```bash
