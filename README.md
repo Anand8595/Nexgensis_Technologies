@@ -1,32 +1,105 @@
 # NexStore — Product Admin Dashboard
 
-A modern, high-performance product inventory dashboard built with **React 19**, **Tailwind CSS v4**, and **Axios**, powered by the [DummyJSON API](https://dummyjson.com).
+NexStore is a modern and responsive **Product Admin Dashboard** built with React. It provides product management features such as authentication, search, filtering, sorting, pagination, and CRUD operations.
 
-🔗 **Live Demo:** [NexStore on Vercel](https://nexgensis-technologies.vercel.app/)  
----
+## 🚀 Live Demo
+
+**Live Demo:** https://nexgensis-technologies.vercel.app/
 
 ## 🛠️ Tech Stack
 
-| Layer | Tools |
-| :--- | :--- |
-| **Frontend** | React 19, Vite, Tailwind CSS v4, Lucide Icons |
-| **Routing** | React Router DOM v7 (with `ProtectedRoute`) |
-| **Networking** | Axios (centralized interceptors + `AbortController`) |
-| **State** | Native React Hooks (`useProducts`, `useDebounce`, `localStorage`) |
-| **Data Source** | DummyJSON API + Client-side mock mutation overlay |
+* **React 19**
+* **Vite**
+* **Tailwind CSS v4**
+* **Axios**
+* **React Router DOM**
+* **Lucide React**
+* **DummyJSON API**
+* **LocalStorage**
 
----
+## ✨ Features
 
-## ⚡ Quick Start
+* 🔐 User authentication with protected routes
+* 📦 Product listing with responsive design
+* 🔎 Debounced product search
+* 📄 Server-side pagination
+* 🏷️ Category filtering
+* ↕️ Product sorting
+* ➕ Add new products
+* ✏️ Edit products
+* 🗑️ Delete products with confirmation
+* 📱 Responsive desktop and mobile UI
+* 🔗 URL state synchronization
+* 💾 LocalStorage persistence for mock CRUD operations
+* ⚡ Request cancellation using `AbortController`
+* 🛡️ Race-condition protection
+* ✅ Form validation
+* 🔄 Loading, empty, error, and 404 states
+
+## 🔑 Demo Login
+
+```text
+Username: emilys
+Password: emilyspass
+```
+
+## 🏗️ Project Structure
+
+```text
+src/
+├── api/
+├── components/
+├── hooks/
+├── pages/
+├── routes/
+├── services/
+└── App.jsx
+```
+
+## 💻 Installation
 
 ```bash
-# 1. Clone & install
 git clone <your-repo-url>
 cd nexstore
 npm install
-
-# 2. Run locally (http://localhost:5173)
 npm run dev
+```
 
-# 3. Build for production
+Open:
+
+```text
+http://localhost:5173
+```
+
+## 🏭 Production Build
+
+```bash
 npm run build
+npm run preview
+```
+
+## 🌐 Deployment
+
+The application is deployed on **Vercel**.
+
+**Live:** https://nexgensis-technologies.vercel.app/
+
+## 📌 Key Highlights
+
+This project demonstrates practical frontend development skills including:
+
+* React component architecture
+* REST API integration
+* Axios interceptors
+* Authentication & protected routes
+* CRUD operations
+* Pagination, search & filtering
+* Custom React hooks
+* LocalStorage
+* Responsive UI
+* Error handling
+* API request optimization
+
+## 📄 License
+
+This project was developed as a **Frontend Assignment — Product Admin Dashboard** and uses the DummyJSON API for demonstration.
